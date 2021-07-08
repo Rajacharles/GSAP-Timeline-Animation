@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    line-height: 1.7;
+    position: relative;
+    background-color: #ecf1f5;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: #fff;
+    width: 320px;
+    height: 680px;
+    border-radius: 28px;
+    box-shadow: 0px 56px 72px -30px rgba(50, 55, 63, 0.46);
+    padding: 20px;
+}
+
+.container img {
+    position: absolute;
+    height: 350px;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%);
+}
+
+.container .menu,
+.container .profile {
+    position: absolute;
+    font-size: 24px;
+    top: 30px;
+}
+
+.container .menu {
+    left: -100px;
+}
+
+.container .profile {
+    right: -100px;
+}
+
+.container h1 {
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    color: #313942;
+}
+
+.container p {
+    width: 260px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #535c68;
+    font-weight: 600;
+}
+
+.container .buy {
+    background-color: #17202c;
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.container .buy i {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .back-button {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.473);
+    position: absolute;
+    left: 35px;
+    bottom: -25%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+.container .car-final {
+    position: absolute;
+    height: 100px;
+    left: 200%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.container h2 {
+    position: absolute;
+    top: 38%;
+    left: -60%;
+    transform: translate(-50%);
+    width: 100%;
+    color: #FFF;
+}
+
+.container .summary {
+    position: absolute;
+    top: 46%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.container .summary-2 {
+    position: absolute;
+    top: 58%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
